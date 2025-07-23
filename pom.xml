@@ -1,0 +1,30 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>br.com.jstack.platform</groupId>
+        <artifactId>starter-atomic-micronaut</artifactId>
+        <version>1.0.14</version>
+    </parent>
+
+    <groupId>br.com.jstack.system.acronym</groupId>
+    <artifactId>ms-atomic-manaut-java-technology</artifactId>
+    <name>ms-atomic-manaut-java-technology</name>
+    <version>0.0.1</version>
+
+    <properties>
+        <package>${project.groupId}</package>
+        <openapi.inputSpec>${project.basedir}/src/main/resources/api/contract/ms-atomic-sboot-java-system-acronym.yaml</openapi.inputSpec>
+    </properties>
+
+    <dependencies>
+        <!-- INCLUA SUA LIB AQUI SE NAO HOUVER NO PARENT -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>
